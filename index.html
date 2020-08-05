@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+    body{
+        background-color: white;
+        font-family: sans-serif;
+        color: grey;
+    }
+    .googlelogo{
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        width:20%;
+        padding: 40px 0;
+    }
+    .searchbar{
+     margin: 0 ;
+     width: 70%;
+     background-color:white;
+     background-image:url("download.png");
+     background-position: left;
+     background-size: 20px;
+     background-origin: content-box;
+     background-repeat: no-repeat;
+     
+    }
+    #rcorners{
+        border-radius: 20px;
+        padding: 10px;
+    }
+
+    .button1{
+       display:inline-block;
+       margin-left: 400px;
+       
+    }
+    .button2{
+       display:inline-block;
+       margin-left:550px;
+       
+    }
+    
+    .navbartop{
+        
+        font-family: sans-serif;
+        list-style-type:none;
+        margin:0;
+        position:fixed;
+        top:0;
+        width:100%;
+    }
+    .navbarbottom{
+        
+        font-family: sans-serif;
+        list-style-type:none;
+        margin:10;
+        position:fixed;
+        bottom:0;
+        width:100%;
+        padding:12px;
+        background-color: rgb(218, 214, 214);
+    }
+    li{
+        display:inline;
+    }
+    a{
+        padding: 14px;
+        color: darkslategray;
+        text-decoration: none; 
+    }
+    #button-container{
+        display:flex;
+        justify-content:center;
+        padding-top:18px;
+        width:582px;
+        margin:auto;
+       
+}
+   
+</style>
+
+
+<!--header nav bar-->
+<u1 class="navbartop">
+    <li style="float: left"><a href="a">About</a></li>
+    <li style = "float: left"><a href="b">Store</a></li>
+    <li style = "float:right"><a href="c">Gmail</a></li>
+    <li style = "float:right"><a href="d">Images</a></li>
+</u1>
+
+<!--footer nav bar-->
+<u1 class="navbarbottom">
+    <li style="float: left"><a href="a">Advertising</a></li>
+    <li style = "float: left"><a href="b">Business</a></li>
+    <li style = "float:left"><a href="c">How Search works</a></li>
+    <li style = "float:right"><a href="d">Privacy</a></li>
+    <li style = "float:right"><a href="d">Terms</a></li>
+    <li style = "float:right"><a href="d">Settings</a></li>
+</u1>
+
+
+<!--google logo-->
+<a href ='#'><img class ="googlelogo"src= "google logo.png" alt="Google logo"></a>
+
+<!--search box-->
+<div id="button-container">
+    <input id = "rcorners" class = "searchbar"type="text">
+</div>
+
+
+
+<!--search buttons-->
+<div id="button-container">
+<button  type = "search">Google Search</button>
+<button  type = "lucky">I'm Feeling Lucky</button>
+</div>
+</html>
